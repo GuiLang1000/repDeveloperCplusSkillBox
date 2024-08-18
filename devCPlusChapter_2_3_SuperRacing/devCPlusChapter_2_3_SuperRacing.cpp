@@ -5,6 +5,7 @@
 
 int main()
 {
+    setlocale(LC_ALL,"Russian");
     std::cout << "================== =\n";
     std::cout << "Супер гонки.Круг 4\n";
     std::cout << "================== =\n";
