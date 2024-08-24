@@ -7,6 +7,9 @@ int main()
 {
     int costProductWiFiRouter = 1500;
     int costDeliveryProduct = 500;
+    // Скидка в частях выражается дробью.
+    // int sailProduct = costProductWiFiRouter * (1 / 10);
+    // Убираем скобки ,так как "int".
     int sailProduct = costProductWiFiRouter * 1 / 10;
     int fullCostProduct = costProductWiFiRouter + costDeliveryProduct - sailProduct;
     //...
