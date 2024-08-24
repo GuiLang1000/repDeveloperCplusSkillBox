@@ -5,16 +5,17 @@
 
 int main()
 {
-    int mainRaceCircle = 4;
-    int mainInfoCarSpeed = 358;
+    int mainRaceLap = 4;
     int equipmentEnginePower = 254;
     int equipmentCarWheels = 93;
-    int equipmentCarWheel = 49;
+    int equipmentSteerinWheel = 49;
     int influenceWeatherWild = 21;
     int influenceWeatherRain = 17;
+    int mainInfoCarSpeed = equipmentEnginePower + equipmentCarWheels + equipmentSteerinWheel - influenceWeatherWild - influenceWeatherRain;
+    //...
     setlocale(LC_ALL,"Russian");
     std::cout << "================== =\n";
-    std::cout << "Супер гонки.Круг: " << mainRaceCircle << "\n";
+    std::cout << "Супер гонки.Круг: " << mainRaceLap << "\n";
     std::cout << "================== =\n";
     std::cout << "Шумахер(" << mainInfoCarSpeed << ")\n";
     std::cout << "================== =\n";
@@ -24,7 +25,7 @@ int main()
     std::cout << "Оснащение\n";
     std::cout << "Двигатель : +" << equipmentEnginePower << "\n";
     std::cout << "Колеса : +" << equipmentCarWheels << "\n";
-    std::cout << "Руль : +" << equipmentCarWheel << "\n";
+    std::cout << "Руль : +" << equipmentSteerinWheel << "\n";
     std::cout << "------------------ -\n";
     std::cout << "Действия плохой погоды\n";
     std::cout << "Ветер : -" << influenceWeatherWild << "\n";
