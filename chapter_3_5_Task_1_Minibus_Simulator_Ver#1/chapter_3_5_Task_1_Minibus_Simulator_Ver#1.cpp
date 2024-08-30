@@ -14,5 +14,21 @@ int main()
     std::cout << "||======                                         <guilang>                                              ======||\n";
     std::cout << "||============================================================================================================||\n";
     //
+    //Bus station Name
+    std::string part1BusStation1 = "Автобусный_парк";
+    std::string part1BusStation2 = "Усадьба_Падающего_Снега";
+    std::string part1BusStation3 = "Поместье_Времён_Года";
+    std::string part1BusStation4 = "Поместье_Берег_Лотосов";
+    //std::string part2BusStation1 = "";
+
+    //account Variable
+    int accountPartNumber = 0;
+
+    
+    
+
+    //
+
     std::cout << "||";
+
 }
